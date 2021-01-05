@@ -16,9 +16,13 @@
 <body>
     <main>
         <h1>FIZZ BUZZ</h1>
-        <div class="navContainer">
+        <div id="navContainer">
             <label>MIN number: </label><input type="number" name="field"  id="minInput"  min="1" max="99" onpaste="return false">
             <label>MAX number: </label><input type="number" name="field"  id="maxInput"  min="2" max="100" onpaste="return false">
+            <h3>Start value :</h3><input id="startValue" type="number" value="1">
+            <h3>End value :</h3><input id="endValue" type="number" value="100">
+            <h3>Fizz value :</h3><input id="fizzValue" type="number" value="3">
+            <h3>Buzz value :</h3><input id="buzzValue" type="number" value="5">
             <button id="btnOne">RESET</button>
             <button id="btnTwo">REFRESH</button>
             <button id="btnThree">FIZZ</button>

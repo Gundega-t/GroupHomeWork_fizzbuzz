@@ -102,7 +102,7 @@ create();
     };
     
     btnTwo.onclick = function() {
-        inputMin.value = 1;
+        inputMin.value = 1; 
         inputMax.value = 100;
         create();
     };
